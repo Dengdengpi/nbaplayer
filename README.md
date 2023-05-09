@@ -23,10 +23,24 @@ npm install && npm start
 - GET /: Return all user responses. 
 - GET/{id}: Return a specific response. 
 
-# Web application
+# Web application - https://github.com/Dengdengpi/nbaplayer-frontend
 - for first page, user can type in the name and will display all nba players with that name
 - the public api is GET https://www.balldontlie.io/api/v1/players with query parameter search
 ![web](a.png)
 
--if press the switch button on the top, then can take you to play with the apis of the app
--to submit form must provide values for all inputs otherwise give warning
+- if press the switch button on the top, then can take you to play with the apis of the app
+- to submit form must provide values for all inputs otherwise give warning
+![web](b.png)
+
+- to get all the responses, you simply dont provide value for the input field
+- if you want a specific response, provide the correct id
+![web](c.png)
+
+#### Improvements
+- User interface could be prettier
+- can add authentication and authorization
+- can handle mongo errors better by using async error package and creating custom error classes
+- deploy app
+- can constantly refresh react app to display updated responses
+- structure react app better
+- same user cannot submit his favourite player twice 
