@@ -26,3 +26,7 @@ npm install && npm start
 # Web application
 - for first page, user can type in the name and will display all nba players with that name
 - the public api is GET https://www.balldontlie.io/api/v1/players with query parameter search
+![web](a.png)
+
+-if press the switch button on the top, then can take you to play with the apis of the app
+-to submit form must provide values for all inputs otherwise give warning
